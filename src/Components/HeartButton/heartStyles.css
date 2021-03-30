@@ -1,0 +1,6 @@
+#heartContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 6%;
+}
