@@ -3,7 +3,30 @@
     padding: 0;
 }
 
-#first_area_container {
+.elementsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+#comments_container {
+    padding: 1.5rem;
+}
+
+.first_text {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6%;
+}
+
+#second-comment {
+    width: 95%;
+    justify-self: flex-end;
+    margin-left: 5%;
+}
+
+#second_text {
+    margin-left: 7%;
+    width: 85%;
+}
+
