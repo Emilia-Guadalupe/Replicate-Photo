@@ -4,13 +4,15 @@ import PhotoProfile from './Components/PhotoProfile/PhotoProfile';
 import ButtonElements from './Components/Buttons/ButtonElements';
 import MainText from './Components/MainText/MainText';
 import Text from './Components/Text/Text';
+import AddComment from './Components/AddComment/AddComment';
 
 import Photographer from './Img/ellipse-1.png';
 import Designer from './Img/ellipse-2.png';
 import Copywriter from './Img/ellipse-3.png';
 
 import Heart from './Img/path.svg';
-import Reply from './Img/ic_reply_black_24px.svg'
+import Reply from './Img/ic_reply_black_24px.svg';
+import Send from './Img/send.svg';
 
 
 function App() {
@@ -78,7 +80,10 @@ function App() {
         <Text />
       </div>
       </div>
-
+      
+    <>
+      <AddComment photo={Photographer} img={Send} />
+    </>
     </div>
   );
 }
