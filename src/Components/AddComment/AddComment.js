@@ -1,7 +1,7 @@
 import React from 'react';
 import './addComment.css';
 
-function AddComment({photo, img}){
+function AddComment({photo}){
     return(
         <div id="addCommentSection">
             <div>
@@ -9,9 +9,6 @@ function AddComment({photo, img}){
             </div>
             <div id="phrase_container">
                 <p id="question">What do you think about it?</p>
-            </div>
-            <div id="send_container">
-                <img src={img} alt="Send" />
             </div>
         </div>
     )

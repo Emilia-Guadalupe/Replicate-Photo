@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+
 import Header from './Components/Header/Header';
 import PhotoProfile from './Components/PhotoProfile/PhotoProfile';
 import ButtonElements from './Components/Buttons/ButtonElements';
@@ -80,10 +82,15 @@ function App() {
         <Text />
       </div>
       </div>
-      
-    <>
-      <AddComment photo={Photographer} img={Send} />
-    </>
+
+      <div className="elementsContainer" id="send_container_two">
+        <div>
+          <AddComment photo={Photographer} />
+        </div>
+        <div id="button_send_container">
+          <img id="send_id" src={Send} alt="Send" />
+        </div>
+      </div>
     </div>
   );
 }
