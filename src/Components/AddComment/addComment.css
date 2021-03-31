@@ -1,21 +1,19 @@
 #addCommentSection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 0%;
-    align-items: center;
-    width: 100%;
-    margin-top: 7%;
-}
-
-#last_image {
-    padding: 0%;
-    margin: 5%;
-}
-
-#send_container {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin-right: 6%;
-    padding: 0%;
+    margin: 1%;
+    margin-top: 5rem;
 }
+
+#phrase_container {
+    border-bottom: 1px solid gray;
+    width: 65rem;
+    margin-left: 1rem;
+}
+
+#question {
+    padding: 2px;
+}
+
+
+

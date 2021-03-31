@@ -30,3 +30,13 @@
     width: 85%;
 }
 
+#send_container_two {
+    display: flex;
+    align-items: center;
+}
+
+#button_send_container {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 4%;
+}
