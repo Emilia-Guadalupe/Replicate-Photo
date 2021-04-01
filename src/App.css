@@ -23,17 +23,17 @@
     width: 90%;
     display: flex;
     justify-content: flex-end;
-    margin-left: 6%;
+    margin-left: 7%;
 }
 
 #second-comment {
     width: 95%;
     justify-self: flex-end;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 
 #second_text {
-    margin-left: 6.3%;
+    margin-left: 7.2%;
     width: 85%;
 }
 
