@@ -3,13 +3,13 @@ import './photoStyles.css';
 
 function PhotoProfile({text, job, photo}){
     return(
-        <div id="photoContainer">
-            <div id="mainImageContainer">
+        <div className="photoContainer">
+            <div className="mainImageContainer">
             <img src={photo} alt="Photographer" className="photo" id="mainProfile"/>
             </div>
-            <div id="mainDataContainer">
-            <h5>{text}</h5>
-            <h5>{job}</h5>
+            <div className="mainDataContainer">
+            <h5 className="profile_info">{text}</h5>
+            <h5 className="profile_info">{job}</h5>
             </div>
         </div>
     )

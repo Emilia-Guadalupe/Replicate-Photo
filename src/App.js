@@ -37,50 +37,52 @@ function App() {
         <MainText />
       </div>
       
-      <div id="comments_container">
-        <p id="comments">Comments (3)</p>
-      </div>
+      <div className="comments_container">
+          
+          <p id="comments">Comments (3)</p>
+      
+        <div id="first_comment">
+          <div className="elementsContainer">
+            <div>
+              <PhotoProfile text={"Jennifer Wood"} job={"Brand Designer"} photo={Designer} />
+            </div>
+            <div>
+              <ButtonElements img={Reply} />
+            </div>
+          </div>
+            <div className="first_text">
+              <Text />
+            </div>
+        </div>
+      
+        <div id="second-comment">
+          <div className="elementsContainer">
+            <div>
+              <PhotoProfile text={"Jamie Andersen"} job={"Photographer"} photo={Photographer} />
+            </div>
+            <div>
+              <ButtonElements img={Reply} />
+            </div>
+          </div>
+        <div id="second_text">
+            <Text />
+        </div>
+        </div>
 
-      <div id="first_comment">
-        <div className="elementsContainer">
-          <div>
-            <PhotoProfile text={"Jennifer Wood"} job={"Brand Designer"} photo={Designer} />
+        <div id="third_comment">
+          <div className="elementsContainer">
+            <div>
+              <PhotoProfile text={"Jeremy Mitchell"} job={"Copywriter"} photo={Copywriter} />
+            </div>
+            <div>
+              <ButtonElements img={Reply} />
+            </div>
           </div>
-          <div>
-            <ButtonElements img={Reply} />
+            <div className="first_text">
+              <Text />
+            </div>
           </div>
-        </div>
-        <div className="first_text">
-          <Text />
-        </div>
-      </div>
-      
-      <div id="second-comment">
-      <div className="elementsContainer">
-        <div>
-        <PhotoProfile text={"Jamie Andersen"} job={"Photographer"} photo={Photographer} />
-        </div>
-        <div>
-        <ButtonElements img={Reply} />
-        </div>
-      </div>
-      <div id="second_text">
-        <Text />
-      </div>
-      </div>
-      
-      <div id="third_comment">
-      <div className="elementsContainer">
-        <div>
-        <PhotoProfile text={"Jeremy Mitchell"} job={"Copywriter"} photo={Copywriter} />
-        </div>
-        <div>
-        <ButtonElements img={Reply} />
-        </div>
-      </div>
-      <div className="first_text">
-        <Text />
-      </div>
+
       </div>
 
       <div className="elementsContainer" id="send_container_two">

@@ -3,8 +3,8 @@ import './buttonStyles.css';
 
 function ButtonElements({img}){
     return(
-        <div id="heartContainer">
-            <img src={img} alt="Heart Button" id="heart_button"/>
+        <div className="button_container">
+            <img src={img} alt="button" className="button_class"/>
         </div>
     )
 }
