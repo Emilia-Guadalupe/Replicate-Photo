@@ -17,21 +17,23 @@
     color: #666666;
 }
 
-
+/* Media query for big devices (more than 900px) */
 @media screen and (min-width: 992px) {
     #question {
         width: 65rem;
     }
 }
 
+/* Media query for medium devices (tablets, 800px and down) */
 @media screen and (max-width: 800px) {
     #question {
         width: 35rem;
     }
 }
 
+/* Media query for small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
     #question {
-        width: 25rem;
+        width: 19rem;
     }
 }
