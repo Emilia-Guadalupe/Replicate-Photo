@@ -8,7 +8,14 @@
     grid-template-columns: 1fr 1fr;
 }
 
-#comments_container {
+.comments_container {
+    background-color: #FFEDDA4C;
+    padding-bottom: 3%;
+}
+
+#comments {
+    font-family: 'Montserrat', sans-serif;
+    color: #604731;
     padding: 1.5rem;
 }
 
@@ -26,7 +33,7 @@
 }
 
 #second_text {
-    margin-left: 7%;
+    margin-left: 6.3%;
     width: 85%;
 }
 
@@ -37,6 +44,7 @@
 
 #button_send_container {
     display: flex;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left: 4%;
+    width: 0%;
 }

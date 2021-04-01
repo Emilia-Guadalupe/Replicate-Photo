@@ -1,5 +1,19 @@
-#photoContainer {
+.photoContainer {
     display: flex;
     align-items: center;
     margin: 2%;
+}
+
+.mainDataContainer {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    color: #666666;
+}
+
+.photo {
+    background: transparent;
+}
+
+.profile_info {
+    padding: 2px;
 }

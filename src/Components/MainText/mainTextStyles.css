@@ -4,8 +4,17 @@
 
 #mainTitle {
     padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_text {
+    font-family: 'Noto Sans', sans-serif;
+    color: #666666;
 }
 
 #link {
     margin-top: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    color: #5A90BC;
 }

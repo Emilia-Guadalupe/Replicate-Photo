@@ -2,18 +2,36 @@
     display: flex;
     align-items: center;
     margin: 1%;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    width: 100%;
 }
 
 #phrase_container {
-    border-bottom: 1px solid gray;
-    width: 65rem;
+    border-bottom: 1px solid #66666647;
     margin-left: 1rem;
 }
 
 #question {
-    padding: 2px;
+    padding: 4px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #666666;
 }
 
 
+@media screen and (min-width: 992px) {
+    #question {
+        width: 65rem;
+    }
+}
 
+@media screen and (max-width: 800px) {
+    #question {
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #question {
+        width: 25rem;
+    }
+}
